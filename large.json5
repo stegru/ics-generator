@@ -1,0 +1,26 @@
+{
+  /** number of items to generate */
+  items: 1000,
+  /** earliest date */
+  start: "today",
+  /** to number of days after start */
+  daySpan: 5,
+
+  minDuration: 15,
+  maxDuration: 120,
+
+  chances: {
+    task: 0,
+    allDay: 0.2,
+    multiDay: 0.2,
+    recurring: 0.1,
+    meeting: 0.3,
+  },
+
+  // Number of minutes times and durations get rounded to
+  roundTo: 5,
+
+  timezones: [
+    "", "Europe/London", "Asia/Tokyo", "America/New_York", "Europe/Berlin", "Africa/Cairo", "Australia/Sydney", "Etc/UTC", "Etc/GMT+12"
+  ],
+}
